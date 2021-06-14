@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Web de Automação</title>
+</head>
+<body>
+    
+    <h1>Sistema Web de Automação</h1>
+    <form>
+        <label for="primeiro_nome">Digite o primeiro nome: </label><br>
+        <input type="text" id="primeiro_nome"><br>
+        <label for="ultimo_nome">Digite o ultimo nome: </label><br>
+        <input type="text" id="ultimo_nome"><br>
+        <br>
+        Sexo: <br>
+        <input type="radio" name="genero" id="masc" value="masc">
+        <label for="masc">Masculino</label><br>
+        <input type="radio" name="genero" id="fem" value="fem">
+        <label for="fem">Feminino</label><br>
+        <input type="radio" name="genero" id="outro" value="outro">
+        <label for="outro">Outros</label>
+        <br>
+        <label for="cars">Escolha um carro:</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="volto">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+        <input type="button" onclick="alert('Acabou o teste. Faca o robo clicar no botao OK')" value="Finalizar">
+    </form>
+    
+</body>
+</html>
